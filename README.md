@@ -5,7 +5,7 @@
 
 ## How to use
 
-    docker run -d -p 3000:3000 --name=devhub ysaotome/devhub
+    docker run -d -p 3000:3000 ysaotome/devhub
     http://localhost:3000/
 
 ## References
