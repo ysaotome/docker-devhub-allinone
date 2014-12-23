@@ -1,7 +1,7 @@
 # docker-devhub
 
->プログラマの為の開発支援コミュニケーションツール。作業中メモをリアルタイム共有する。
->http://dev-hub.herokuapp.com/
+> プログラマの為の開発支援コミュニケーションツール。作業中メモをリアルタイム共有する。
+> http://dev-hub.herokuapp.com/
 
 ## How to use
 
@@ -11,6 +11,5 @@ http://localhost:3000/
 ```
 
 ## References
-
- - https://github.com/volpe28v/DevHub
- - https://registry.hub.docker.com/u/matsuu/devhub/
+ 
+- https://github.com/volpe28v/DevHub
