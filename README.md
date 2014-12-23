@@ -5,8 +5,10 @@
 
 ## How to use
 
-    docker run -d -p 3000:3000 ysaotome/devhub
-    http://localhost:3000/
+```bash
+docker run -d -p 3000:3000 ysaotome/devhub
+http://localhost:3000/
+```
 
 ## References
 
