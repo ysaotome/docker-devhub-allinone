@@ -15,11 +15,6 @@ RUN apt-get update
 RUN apt-get install -y supervisor mongodb-org nodejs
 RUN apt-get clean
 
-# Settigs
-## Set Time Zone
-RUN echo 'Asia/Tokyo' > /etc/timezone
-RUN dpkg-reconfigure -f noninteractive tzdata
-
 # Install DevHub
 RUN git clone https://github.com/volpe28v/DevHub.git /DevHub
 WORKDIR /DevHub
